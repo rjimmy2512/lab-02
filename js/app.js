@@ -34,7 +34,7 @@ Picture.readJson = () => {
   $.get('./data/page-1.json')
     .then(data => {
       data.forEach(element => {
-        Picture.allHorns.push(new Horn(element));
+        Picture.allHorns.push(new Picture(element));
       });
     })
     .then(Picture.loadHorns);
