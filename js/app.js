@@ -21,7 +21,7 @@ Picture.prototype.render = function() {
   hornClone.html(hornHtml);
 
   hornClone.find('h2').text(this.title);
-  hornClone.find('horn').attr('src', this.image_url);
+  hornClone.find('img').attr('src', this.image_url);
   hornClone.find('p').text(this.description);
   hornClone.removeClass('clone');
   hornClone.attr('class', this.keyword);
@@ -41,7 +41,7 @@ Picture.readJson = () => {
 };
 
 Picture.loadHorns = () => {
-  Picture.allHorns.forEach(horn => horn.render())
+  Picture.allHorns.forEach(horn => horn.render());
 };
 
 $(() => Picture.readJson());

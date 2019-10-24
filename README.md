@@ -1,3 +1,16 @@
+Time Estimate
+For each of the features listed below, make an estimate of the time it will take you to complete the feature, and record your start and finish times for that feature:
+
+Number and name of feature: _index.html, js/app.js, css (4 files), page-1.json, README.md, .eslintrc.json, and .gitignore_
+
+Estimate of time needed to complete: _2 hours___
+
+Start time: _7.00pm____
+
+Finish time: _11.00pm____
+
+Actual time needed to complete: _5 hours____
+
 Feature #1: Display images
 Why are we implementing this feature?
 As a user, I want to view the images on the page so that I can browse the photo collection.
@@ -44,3 +57,4 @@ Then the images should be sorted accordingly
 How are we implementing it?
 Add the ability for the user to sort the images by either title or by number of horns.
 Sort the images by one of the properties on page load. This should also apply to the second page of images.
+
