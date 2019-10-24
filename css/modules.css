@@ -1,0 +1,5 @@
+div img {
+  height: 200px;
+  border: 3px solid rgb(27, 19, 27);
+  border-radius: 10px;
+}
