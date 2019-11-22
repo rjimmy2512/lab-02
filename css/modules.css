@@ -3,3 +3,11 @@ div img {
   border: 3px solid rgb(27, 19, 27);
   border-radius: 10px;
 }
+
+div h2 {
+  font: italic bold 24px Georgia, serif;;
+}
+
+div p {
+  font: italic 16px Georgia, serif;
+}
